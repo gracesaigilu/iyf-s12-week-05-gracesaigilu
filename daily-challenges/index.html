@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 5 - Daily Challenges</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 15px; }
+        section { border: 1px solid #ccc; border-radius: 8px; padding: 15px; margin-bottom: 20px; }
+        button { padding: 8px 12px; margin: 5px 0; cursor: pointer; }
+        .dark-mode { background-color: #1a1a1a; color: #ffffff; }
+        .dark-mode section { border-color: #444; }
+        #copier-box { display: flex; gap: 10px; margin-top: 10px; }
+        .box { flex: 1; border: 1px dashed #aaa; padding: 10px; min-height: 50px; }
+    </style>
+</head>
+<body>
+    <h1>Daily Challenges</h1>
+
+    <!-- Day 1: Color Changer -->
+    <section>
+        <h2>Day 1: Color Changer</h2>
+        <h3>Subheading Example</h3>
+        <button id="color-btn">Change Heading Colors</button>
+    </section>
+
+    <!-- Day 2: Dynamic Element Creator -->
+    <section>
+        <h2>Day 2: Dynamic Element Creator</h2>
+        <button id="add-para-btn">Add Paragraph</button>
+        <div id="para-container"></div>
+    </section>
+
+    <!-- Day 3: Image Remover -->
+    <section>
+        <h2>Day 3: Image Toggle</h2>
+        <button id="toggle-img-btn">Hide/Show Images</button>
+        <div>
+            <img class="toggle-img" src="https://via.placeholder.com/100" alt="Sample 1">
+            <img class="toggle-img" src="https://via.placeholder.com/100/0000FF" alt="Sample 2">
+        </div>
+    </section>
+
+    <!-- Day 4: Content Copier -->
+    <section>
+        <h2>Day 4: Content Copier</h2>
+        <button id="copy-btn">Copy Content</button>
+        <div id="copier-box">
+            <div id="source" class="box">Source Text to Copy</div>
+            <div id="target" class="box">Target Area...</div>
+        </div>
+    </section>
+
+    <!-- Day 5: Dark Mode Toggle -->
+    <section>
+        <h2>Day 5: Dark Mode Toggle</h2>
+        <button id="dark-mode-btn">Toggle Dark Mode</button>
+    </section>
+
+    <script src="challenges.js"></script>
+</body>
+</html>
+
